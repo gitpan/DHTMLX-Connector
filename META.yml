@@ -1,5 +1,5 @@
 ---
-abstract: 'turns baubles into trinkets'
+abstract: 'DHTMLX Perl connector'
 author:
   - 'José Eduardo Perotta de Almeida <eduardo@web2solutions.com.br>'
 build_requires: {}
@@ -17,5 +17,6 @@ requires:
   Locale::Currency::Format: 0
   XML::Mini::Document: 0
   strict: 0
+  vars: 0
   warnings: 0
-version: 0.001
+version: 0.002

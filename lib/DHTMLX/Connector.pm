@@ -54,13 +54,24 @@ Grid, TreeGrid, Tree, Combo, Scheduler, DataView, Chart, Form
 
 =cut
 
-# ABSTRACT: turns baubles into trinkets
+# ABSTRACT: DHTMLX Perl connector
     
     use strict;
     use warnings 'all';
     use JSON;
     use XML::Mini::Document;
     use Locale::Currency::Format;
+    
+    use vars qw (
+	    $VERSION
+        );
+	
+=head1 VERSION
+
+0.002
+
+=cut
+	$VERSION = '0.002';
 
     my $table;
     my $primary_key;

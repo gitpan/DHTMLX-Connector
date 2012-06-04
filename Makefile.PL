@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "turns baubles into trinkets",
+  "ABSTRACT" => "DHTMLX Perl connector",
   "AUTHOR" => "Jos\351 Eduardo Perotta de Almeida <eduardo\@web2solutions.com.br>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -24,9 +24,10 @@ my %WriteMakefileArgs = (
     "Locale::Currency::Format" => 0,
     "XML::Mini::Document" => 0,
     "strict" => 0,
+    "vars" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => ""
   }
